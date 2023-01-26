@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    background-color: aliceblue;}
+
+header {
+    background-color: rgb(177, 224, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 30px;*/
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    margin: 0px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.titulo  {
+    float: right;
+    text-align: center;
+}
+
+.aviso {
+    color: #ff0000;
+    position: relative;
+    right:0;
+    font-size: 15px;
+}
+
+.formulario {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input:hover {
+    transform: scale(1.1);
+}
+
+select:hover {
+    transform: scale(1.1);
+    border-color: rgb(177, 224, 243);
+    border-width: 3px;
+    border-radius: 3px;
+}
+
+img {
+    border-radius: 30px;
+    padding: 20px;
+}
+
+span {
+    font-size: 20px;
+}
+
+.myButton {
+	background-color:#79bbff;
+	border-radius:28px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.botoes {
+    text-align: center;
+}
